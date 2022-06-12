@@ -59,3 +59,7 @@ $("#btnLogout").click(function () {
 
 // 获取用户信息
 getUserInfo()
+
+function change() {
+    $('#change').addClass('layui-this').next().removeClass('layui-this')
+}
